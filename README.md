@@ -48,7 +48,7 @@ const char* password = "TU_PASSWORD";
 const char* mqtt_server = "IP_DEL_BROKER";
 const int mqtt_port = 1883;
 
-
+```
 | Topic               | Descripción                    |
 | ------------------- | ------------------------------ |
 | terra/temperatura   | Temperatura en grados Celsius  |
