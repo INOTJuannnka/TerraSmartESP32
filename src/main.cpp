@@ -4,13 +4,13 @@
 #include <DHT.h>
 
 // ------ CONFIGURACIÓN WIFI ------
-#define ssid      "sumothings"
-#define password      "sum0th1ngs@manzamb"
+#define ssid      "WIFI"
+#define password      "PASS"
 
 // ------ CONFIGURACIÓN MQTT ------
-#define mqtt_server "192.168.127.36"
+#define mqtt_server ""
 #define mqtt_port  1883
-#define mqtt_topic "terra/data"
+#define mqtt_topic ""
 
 // ------ PINES ------
 #define PIN_SOIL_ANALOG   A0    // Salida analógica MH-P103
@@ -124,3 +124,4 @@ void loop() {
 
     delay(3000);
 }
+
